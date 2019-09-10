@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Web Style Guide',
-    shortName: 'Web Style Guide',
+    title: 'Web Policy & Standards',
+    shortName: 'Web Policy & Standards',
     description:
       'The Official Web Style Guide of the Broward County, Florida Government',
   },

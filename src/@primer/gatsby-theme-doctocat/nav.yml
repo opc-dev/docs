@@ -1,7 +1,21 @@
 - title: Introduction
-  url: /introduction
-- title: Example
-  url: /example
+  url: '/introduction'
+- title: Usability
+  url: '/usability'
+- title: Accessibility
+  url: '/a11y'
+- title: Structure
+  url: '/structure'
+- title: Procedures
+  url: procedures
   children:
-    - title: Page 2
-      url: /example/page-2
+    - title: Web Publishing
+      url: usability/publishing
+    - title: Work Orders
+      url: usability/work-orders
+- title: Analytics
+  url: analytics
+- title: Legal
+  url: legal
+- title: Resources
+  url: resources
