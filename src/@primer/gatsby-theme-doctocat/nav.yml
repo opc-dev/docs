@@ -1,5 +1,5 @@
-- title: Page 1
-  url: /page-1
+- title: Introduction
+  url: /introduction
 - title: Example
   url: /example
   children:

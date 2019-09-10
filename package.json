@@ -1,11 +1,10 @@
 {
-  "name": "doctocat-template",
-  "repository": "primer/doctocat-template",
+  "name": "docs",
+  "repository": "opc-dev/docs",
   "version": "1.0.0",
   "scripts": {
     "develop": "gatsby develop",
-    "build": "gatsby build",
-    "now-build": "npm run build"
+    "build": "gatsby build"
   },
   "dependencies": {
     "@primer/gatsby-theme-doctocat": "^0.9.0",
