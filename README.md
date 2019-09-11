@@ -31,7 +31,7 @@
 You may have to fix line-endings by running `git config --global core.autocrlf true` if you receive a CRLF error.
 
 - 1. `cd path/to/docs`
-- 2. `git init`
+- 2. `git init` (first time only)
 - 3. `git add .`
 - 4. `git commit -m "your commit message"`
 - 5. `git push origin <your-branch>`
