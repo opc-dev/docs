@@ -1,6 +1,6 @@
 # Broward County Web Style Guide
 
-This is the Gatsby site that generates the static HTML, CSS & JS files that are uploaded to Broward County's intranet site for regulatory & training purposes. It is proudly maintained by the Office of Public Communication's web development team. Usage instructions below.
+This is the Gatsby site that generates the static HTML, CSS & JS files that are then uploaded to Broward County's intranet site for regulatory & training purposes. It is proudly maintained by the Office of Public Communication's web development team.
 
 ## Getting Started
 
@@ -14,31 +14,44 @@ This is the Gatsby site that generates the static HTML, CSS & JS files that are 
 #### 2. Get all the dependencies
 
 3. Install dependencies by running `npm install`
-4. Run `yarn` \*
+4. Run `yarn`
 
-- \*if errors occur while running `yarn`, you may also need to try:
-  - updating Node by running `npm install npm@latest -g` (or downloading latest version from [nodejs.org](https://nodejs.org)),
-  - fixing dependency issues by running `npm audit fix`, and/or
-  - installing Microsoft's Build Tools by running `npm install --global --production windows-build-tools` from Powershell (as Administrator, which may require one-time ETS support)
+\* if errors occur while running `yarn`, you may also need to try:
+
+- updating Node by running `npm install npm@latest -g` (or downloading latest version from [nodejs.org](https://nodejs.org)),
+- fixing dependency issues by running `npm audit fix`, and/or
+- installing Microsoft's Build Tools by running `npm install --global --production windows-build-tools` from Powershell (as Administrator, which may require one-time ETS support)
 
 #### 3. Install & Run Gatsby
 
 5. Install Gatsby CLI by running `npm i -g gatsby-cli`
 6. Fix any dependency issues by running `npm audit fix`
 7. To edit, run `npm run develop`
-8. To build, run `npm run build --path-prefix`
+8. To build, run `npm run build --prefix-paths`
 9. To cancel an active Gatsby develop/build process, press `ctrl + C` while in terminal and agree to cancel if prompted
-
-**Note:** Files ready to be
 
 #### 4. Editing Gatsby
 
-1. Remain calm...
-2. Shadow...
+For general questions related to editing the Doctocat theme, have a look at the really great [documentation](https://primer.style/doctocat/usage/customization) Github put together for it. Here are a few basic instructions for common procedures on this site:
+
+##### 1. Content
+
+1. To edit content within the pages, edit the respective markdown file located within the `content/` folder
+
+##### 2. Navigation
+
+1. To edit the left navigation of the site, edit the `nav.yaml` file located within the `docs/src/@primer/gatsby-theme-doctocat/` folder
+
+##### 3. Components
+
+1. To edit a component (pretty much anything on the site), you'll need to [shadow](https://www.gatsbyjs.org/blog/2019-04-29-component-shadowing/) it. This basically means you'll make a copy of the component file nested down inside the theme (in this case, Doctocat) in the `node_modules` folder (sorry, you'll have to dig around a little to find what you're looking for - if I could read your mind and tell you where it was, I would but alas: no can do), then edit it and save it into the `docs/src/@primer/gatsby-theme-doctocat/components/` folder. Your new component file will override the one in the `node_modules`
 
 #### 5. Generate Static Site (for publishing to SharePoint)
 
-1. In your local `docs` folder, run `
+1. In your local `docs` folder, run `npm run build --prefix-paths`
+2. Rename all `.html` file extensions to `.aspx`
+3. Copy **all** of the content from the `docs/public/` folder & past it all into the SharePoint directory you want it to live in (probably somewhere in `Site Pages`)
+4. Check to see everything looks alright ;)
 
 #### 6. Version Control
 
@@ -50,13 +63,13 @@ This is the Gatsby site that generates the static HTML, CSS & JS files that are 
 4. Create & merge a pull request
 5. Rinse & repeat
 
-\*You may have to fix line-endings by running `git config --global core.autocrlf true` if you receive a CRLF error.
+\* You may have to fix line-endings by running `git config --global core.autocrlf true` if you receive a CRLF error.
 
 ##### Setup, stage, commit, push & pull request
 
 1. `cd path/to/docs`
 2. `git init` (first time only)
-3. `git add .`
+3. `git add .` (or specify individual files instead of `.` if you want)
 4. `git commit -m "your commit message"`
 5. `git push origin <your-branch>`
 6. Submit a pull-request if you are ready for your work to be reviewed and published to the live site
