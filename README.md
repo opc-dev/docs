@@ -13,8 +13,8 @@ This is the Gatsby site that generates the static HTML, CSS & JS files that are 
 
 #### 2. Get all the dependencies
 
-3. Install dependencies by running `npm install`
-4. Run `yarn`
+1. Install dependencies by running `npm install`
+2. Run `yarn`
 
 \* if errors occur while running `yarn`, you may also need to try:
 
@@ -24,11 +24,11 @@ This is the Gatsby site that generates the static HTML, CSS & JS files that are 
 
 #### 3. Install & Run Gatsby
 
-5. Install Gatsby CLI by running `npm i -g gatsby-cli`
-6. Fix any dependency issues by running `npm audit fix`
-7. To edit, run `npm run develop`
-8. To build, run `npm run build --prefix-paths`
-9. To cancel an active Gatsby develop/build process, press `ctrl + C` while in terminal and agree to cancel if prompted
+1. Install Gatsby CLI by running `npm i -g gatsby-cli`
+2. Fix any dependency issues by running `npm audit fix`
+3. To edit, run `npm run develop`
+4. To build, run `npm run build --prefix-paths`
+5. To cancel an active Gatsby develop/build process, press `ctrl + C` while in terminal and agree to cancel if prompted
 
 #### 4. Editing Gatsby
 
