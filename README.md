@@ -10,17 +10,26 @@
 
 ## Local Development Setup (Windows)
 
+### Basic Development Setup
+
 - 1. Prerequisite: Install Node & NPM globally
 - 2. `cd path/to/docs`
+
+### Get Dependencies
+
 - 3. Install dependencies by running `npm install`
 - 4. Run `yarn`
   - if errors occur, may also require:
   - updating Node by running `npm install npm@latest -g` (or downloading latest version from [nodejs.org](https://nodejs.org)),
   - fixing dependency issues by running `npm audit fix`, and/or
-  - installing Microsoft's Build Tools by running `npm install --global --production windows-build-tools` from Powershell (as Administrator)
+  - installing Microsoft's Build Tools by running `npm install --global --production windows-build-tools` from Powershell (as Administrator which may require one-time ETS support)
+
+### Install & Run Gatsby
+
 - 5. Install Gatsby CLI by running `npm i -g gatsby-cli`
 - 6. Fix any dependency issues by running `npm audit fix`
 - 7. Develop Gatsby locally by running `npm run develop`
+- 8. Build Gatsby by running `npm run build`
 
 ## Editing Gatsby by Shadowing
 

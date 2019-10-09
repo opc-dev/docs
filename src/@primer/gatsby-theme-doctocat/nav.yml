@@ -1,49 +1,49 @@
 - title: Introduction
-  url: /introduction
+  url: introduction/
 - title: Usability
-  url: /usability
+  url: usability/
 - title: Accessibility
-  url: /a11y
+  url: a11y/
 - title: Structure
-  url: /structure
+  url: structure/
   children:
     - title: Master Pages
-      url: master-pages
+      url: master-pages/
     - title: Page Layouts
-      url: page-layouts
+      url: page-layouts/
     - title: Files
-      url: /files
+      url: files/
     - title: Embeds
-      url: /embeds
+      url: embeds/
     - title: ETS & Third-party Applications
-      url: /ets
+      url: ets/
 - title: Style
-  url: /style
+  url: style/
   children:
     - title: Logos
-      url: /logos
+      url: logos/
     - title: Typography
-      url: /typography
+      url: typography/
     - title: Icons
-      url: /icons
+      url: icons/
     - title: Color
-      url: /color
+      url: color/
     - title: Components
-      url: /components
+      url: components/
     - title: Grids
-      url: /grids
+      url: grids/
 - title: Procedures
-  url: /procedures
+  url: procedures/
   children:
     - title: Web Publishing
-      url: /publishing
+      url: publishing/
     - title: Work Orders
-      url: /work-orders
+      url: work-orders/
 - title: Quality Assurance
-  url: /qa
+  url: qa/
 - title: Analytics
-  url: /analytics
+  url: analytics/
 - title: Legal
-  url: /legal
+  url: legal/
 - title: Resources
-  url: /resources
+  url: resources/

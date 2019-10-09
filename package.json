@@ -4,11 +4,11 @@
   "version": "1.0.0",
   "scripts": {
     "develop": "gatsby develop",
-    "build": "gatsby build"
+    "build": "gatsby build --prefix-paths"
   },
   "dependencies": {
     "@primer/gatsby-theme-doctocat": "^0.9.0",
-    "gatsby": "^2.13.25",
+    "gatsby": "^2.4.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   }
