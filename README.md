@@ -21,6 +21,7 @@ This is the Gatsby site that generates the static HTML, CSS & JS files that are 
 - updating Node by running `npm install npm@latest -g` (or downloading latest version from [nodejs.org](https://nodejs.org)),
 - fixing dependency issues by running `npm audit fix`, and/or
 - installing Microsoft's Build Tools by running `npm install --global --production windows-build-tools` from Powershell (as Administrator, which may require one-time ETS support)
+- upgrading Yarn by running `yarn upgrade`
 
 #### 3. Install & Run Gatsby
 
