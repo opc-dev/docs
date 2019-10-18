@@ -49,10 +49,18 @@ For general questions related to editing the Doctocat theme, have a look at the 
 
 #### 5. Generate Static Site (for publishing to SharePoint)
 
+**Note:** Generated files will show up in your `docs/public` folder. In order to avoid duplicate files or other issues, you can **delete** all contents inside the `docs/public` folder _before_ doing the following:
+
 1. In your local `docs` folder, run `npm run build --prefix-paths`
 2. Rename all `.html` file extensions to `.aspx`
+   1. In Windows command prompt, run `cd path/to/docs` (this is **very important** that you are in the correct directory so you don't mess with other files)
+   2. Run `for /r %x in (*.html) do ren "%x" *.aspx`
 3. Copy **all** of the content from the `docs/public/` folder & past it all into the SharePoint directory you want it to live in (probably somewhere in `Site Pages`)
-4. Check to see everything looks alright ;)
+   1. Easiest way is to
+      1. Navigate to subsite site contents directory in a browser
+      2. Select the `Edit Library` option from the `Customize Library` section of the `Library` tab on the SharePoint ribbon.
+      3. Replace all files in directory with your own
+4. Double everything looks alright ("double" because you already checked locally before pushing changes live, right?)
 
 #### 6. Version Control
 
