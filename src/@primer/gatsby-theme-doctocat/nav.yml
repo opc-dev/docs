@@ -8,7 +8,7 @@
   url: /structure
   children:
     - title: Master Pages
-      url: /structure/master-pages
+      url: /master-pages
     - title: Page Layouts
       url: /page-layouts
     - title: Files
@@ -47,5 +47,3 @@
   url: /legal
 - title: Resources
   url: /resources
-- title: test
-  url: /structure/
