@@ -1,49 +1,49 @@
 - title: Introduction
-  url: /introduction
+  url: /introduction/index.aspx
 - title: Usability
-  url: /usability
+  url: /usability/index.aspx
 - title: Accessibility
-  url: /a11y
+  url: /a11y/index.aspx
 - title: Structure
-  url: /structure
+  url: /structure/index.aspx
   children:
     - title: Master Pages
-      url: /master-pages
+      url: /master-pages/index.aspx
     - title: Page Layouts
-      url: /page-layouts
+      url: /page-layouts/index.aspx
     - title: Files
-      url: /files
+      url: /files/index.aspx
     - title: Embeds
-      url: /embeds
+      url: /embeds/index.aspx
     - title: ETS & Third-party Applications
-      url: /ets
+      url: /ets/index.aspx
 - title: Style
-  url: /style
+  url: /style/index.aspx
   children:
     - title: Logos
-      url: /logos
+      url: /logos/index.aspx
     - title: Typography
-      url: /typography
+      url: /typography/index.aspx
     - title: Icons
-      url: /icons
+      url: /icons/index.aspx
     - title: Color
-      url: /color
+      url: /color/index.aspx
     - title: Components
-      url: /components
+      url: /components/index.aspx
     - title: Grids
-      url: /grids
+      url: /grids/index.aspx
 - title: Procedures
-  url: /procedures
+  url: /procedures/index.aspx
   children:
     - title: Web Publishing
-      url: /publishing
+      url: /publishing/index.aspx
     - title: Work Orders
-      url: /work-orders
+      url: /work-orders/index.aspx
 - title: Quality Assurance
-  url: /qa
+  url: /qa/index.aspx
 - title: Analytics
-  url: /analytics
+  url: /analytics/index.aspx
 - title: Legal
-  url: /legal
+  url: /legal/index.aspx
 - title: Resources
-  url: /resources
+  url: /resources/index.aspx

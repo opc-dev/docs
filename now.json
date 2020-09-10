@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "name": "doctocat-template",
+  "builds": [{
+    "src": "package.json",
+    "use": "@now/static-build",
+    "config": {
+      "distDir": "public"
+    }
+  }],
+  "routes": [{
+      "src": "/techproto/v6/MattDEV/SitePages/docs(/.*)?",
+      "dest": "$1"
+    },
+    {
+      "src": "/",
+      "status": 301,
+      "headers": {
+        "Location": "/techproto/v6/MattDEV/SitePages/docs"
+      }
+    }
+  ]
+}
